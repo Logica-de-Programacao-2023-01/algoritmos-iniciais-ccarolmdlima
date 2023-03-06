@@ -1,7 +1,38 @@
-Algoritmo de soma de dois números: um algoritmo simples que pede dois números como 
-entrada e retorna a soma desses dois números
+Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números
 
-1: numero_01= 4
-2: numero_02= 6
-3: A= 4+6
+1: numero 1 = X
+2: numero 2 = Y
+3: soma de x + Y = A
 4: escreva A
+=======================================================================================================================================================================
+Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+
+1: leia temperatura
+2: leia unidade
+3: se unidade igual a Celsius
+4:      resultado = temperatura * 1.8 + 32
+5:      escreva resultado
+6: senão
+7:      resultado = (temperatura - 32)/1.8
+8:      escreva 0 resultado é resultado
+=======================================================================================================================================================================
+Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+
+1: leia lista
+2: leia tamanho_lista
+3: soma = 0
+4: para cada elemento da lista faça:
+5:      soma = elemento + soma
+6: media = soma/tamanho_lista
+7: escreva media
+=======================================================================================================================================================================
+Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
+
+1: leia N
+2: fatorial = 1
+3: para contador de 1 até N faça
+4:      fatorial = fatorial * contador
+5: escreva resultado
+=======================================================================================================================================================================
+Algoritmo de busca linear: um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
+
