@@ -40,10 +40,16 @@ Algoritmo de busca linear: um algoritmo que procura por um determinado elemento 
 2: para cada posição do vetor faça:
 3:       buscar o elemento
 4: se o elemento na posição do vetor é igual ao elemento buscado
-5: fim do algoritmo e imprimir o indice encontrado
+5: fim do algoritmo e escreva o indice encontrado
 6: senão continue a busca até o fim da lista
 7: senão elemento não encontrado
 =======================================================================================================================================================================
 Algoritmo de cálculo de potência: um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
 
-1:
+1: leia número
+2: leia potência
+3: com base nos dados apresentados faça:
+4:        eleve o número a potência
+5: escreva resultado
+=======================================================================================================================================================================
+Algoritmo de verificação de número primo: um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
