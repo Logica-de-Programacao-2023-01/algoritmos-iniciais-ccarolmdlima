@@ -36,3 +36,14 @@ Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um nú
 =======================================================================================================================================================================
 Algoritmo de busca linear: um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
 
+1: leia lista
+2: para cada posição do vetor faça:
+3:       buscar o elemento
+4: se o elemento na posição do vetor é igual ao elemento buscado
+5: fim do algoritmo e imprimir o indice encontrado
+6: senão continue a busca até o fim da lista
+7: senão elemento não encontrado
+=======================================================================================================================================================================
+Algoritmo de cálculo de potência: um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
+
+1:
