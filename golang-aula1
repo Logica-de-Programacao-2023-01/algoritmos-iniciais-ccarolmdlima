@@ -1,0 +1,56 @@
+1. Faça um algoritmo que leia o nome, a idade e o peso de uma pessoa e imprima esses valores na tela.
+
+1: package main
+2: 
+3: import "fmt"
+4: 
+5: func main() {
+6: 	var name string
+7: 	var idade string
+8:	var peso string
+9:	fmt.Print("Qual o seu nome?")
+10:	fmt.Scan(&name)
+11:	fmt.Println("Olá", name)
+12:	fmt.Println("Qual sua idade?")
+13:	fmt.Scan(&idade)
+14:	fmt.Println("Qual seu peso?")
+15:	fmt.Scan(&peso)
+=======================================================================================================================================================================
+2. Faça um algoritmo que calcule a área de um retângulo com base e altura informados pelo usuário.
+
+package main
+
+import "fmt"
+
+func main() {
+	var base float64
+	var altura float64
+	fmt.Println("Informe a base")
+	fmt.Scan(&base)
+	fmt.Println("Informe a altura")
+	fmt.Scan(&altura)
+	var area = altura * base
+	fmt.Println("A sua área é", area)
+=======================================================================================================================================================================
+3. Faça um algoritmo que calcule o volume de uma caixa com base, altura e profundidade informados pelo usuário.
+
+package main
+
+import "fmt"
+
+func main() {
+	var base float64
+	var altura float64
+	var profundidade float64
+	fmt.Println("Informe sua base")
+	fmt.Scan(&base)
+	fmt.Println("Informe a altura")
+	fmt.Scan(&altura)
+	fmt.Println("Informe a profundidade")
+	fmt.Scan(&profundidade)
+	var volume = base * altura * profundidade
+	fmt.Println("A profundidade da caixa é", volume)
+=======================================================================================================================================================================
+  4. Faça um algoritmo que calcule a média aritmética de quatro números informados pelo usuário.
+  
+  
