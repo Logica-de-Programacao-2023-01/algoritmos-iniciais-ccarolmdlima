@@ -51,6 +51,24 @@ func main() {
 	var volume = base * altura * profundidade
 	fmt.Println("A profundidade da caixa é", volume)
 =======================================================================================================================================================================
-  4. Faça um algoritmo que calcule a média aritmética de quatro números informados pelo usuário.
+4. Faça um algoritmo que calcule a média aritmética de quatro números informados pelo usuário.
   
-  
+package main
+
+import "fmt"
+
+func main() {
+	var primeiro float64
+	var segundo float64
+	var terceiro float64
+	var quarto float64
+	fmt.Println("Informe seu primeiro número")
+	fmt.Scan(&primeiro)
+	fmt.Println("Informe seu segundo número")
+	fmt.Scan(&segundo)
+	fmt.Println("Informe seu terceiro número")
+	fmt.Scan(&terceiro)
+	fmt.Println("Informe seu quarto número")
+	fmt.Scan(&quarto)
+	var media = (primeiro * segundo * terceiro * quarto) / 4
+	fmt.Println("A sua média aritimética é", media)
