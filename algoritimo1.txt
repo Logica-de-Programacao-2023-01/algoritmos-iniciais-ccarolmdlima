@@ -29,27 +29,26 @@ Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista 
 Algoritmo de cálculo de fatorial: um algoritmo que calcula o fatorial de um número, ou seja, o produto de todos os números inteiros de 1 até aquele número.
 
 1: leia N
-2: fatorial = 1
-3: para contador de 1 até N faça
-4:      fatorial = fatorial * contador
+2: var resultado = 1
+3: para todo numero entre 2 e N, faça:
+4:      resultado = resultado * numero
 5: escreva resultado
 =======================================================================================================================================================================
 Algoritmo de busca linear: um algoritmo que procura por um determinado elemento em uma lista, verificando cada elemento da lista até encontrá-lo.
 
-1: leia lista
-2: para cada posição do vetor faça:
-3:       buscar o elemento
-4: se o elemento na posição do vetor é igual ao elemento buscado
-5: fim do algoritmo e escreva o indice encontrado
-6: senão continue a busca até o fim da lista
-7: senão elemento não encontrado
+1: leia X
+2: leia lista
+3: para cada valor da lista faça:
+4:      se elemento atual for igual a X:
+5:               escreva X
+6: fim
 =======================================================================================================================================================================
 Algoritmo de cálculo de potência: um algoritmo que calcula a potência de um número, elevando-o a uma determinada potência.
 
 1: leia número
 2: leia potência
 3: com base nos dados apresentados faça:
-4:        eleve o número a potência
+4:      eleve o número a potência
 5: escreva resultado
 =======================================================================================================================================================================
 Algoritmo de verificação de número primo: um algoritmo que verifica se um número é primo, ou seja, se é divisível apenas por 1 e por ele mesmo.
